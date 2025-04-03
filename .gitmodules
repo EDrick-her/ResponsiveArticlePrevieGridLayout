@@ -1,3 +1,6 @@
 [submodule "ResponsiveTooltipGrid"]
     path = ResponsiveTooltipGrid
     url = https://github.com/EDrick-her/ResponsiveTooltipGrid.git
+[submodule "submodulos/ResponsiveArticlePrevieGridLayout"]
+	path = submodulos/ResponsiveArticlePrevieGridLayout
+	url = https://github.com/EDrick-her/ResponsiveArticlePrevieGridLayout.git
