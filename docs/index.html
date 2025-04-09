@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Article preview component</title>
+ 
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Oswald&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div id="container-body">
+  <section class="container-card" >
+   <img class="container-image-big" src="./images/drawers_cortada.jpg" alt="imagen corporativa">
+    <article class="container-items-tittle">
+      <p> <strong>Shift the overall look and feel by adding these wonderful 
+      touches to furniture in your home </strong></p>
+    </article>
+    <article class="container-items-description">
+      <p><strong>Ever been in a room and felt like something was missing? Perhaps 
+      it felt slightly bare and uninviting. I’ve got some <br>simple tips 
+      to help you make any room feel complete.</strong></p>
+    </article>
+  <!---  -->
+    <footer class="container-footer-usuario">
+      <img class="container-image-usuario" src="./images/avatar-michelle.jpg" alt="perfil image">
+        <h2 class="container-tittle-footer">
+         Michelle Appleton 
+        </h2>
+        <p class="container-date">
+          28 Jun 2020
+        </p>
+            <!--aca estara la imagen pequeña y el boton de JS-->
+         <button id="share-button" > <svg class="icono" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" 
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            width="17px" height="17px" viewBox="0 0 459 459" 
+            style="enable-background:new 0 0 459 459;" xml:space="preserve">
+              <g>
+                <g id="share">
+                    <path fill="currentColor" d="M459,216.75L280.5,38.25v102c-178.5,25.5-255,153-280.5,280.5C63.75,331.5,153,290.7,280.5,290.7v104.55L459,216.75z"/>
+                </g>
+              </g>
+            </svg>
+          </button>
+    </footer>
+    <section id="share-box-js" class="share-box-js hidden">
+        <div class="share-box-content">
+          <button id="letters-share-button">SHARE</button>
+          <button class="social-networks" id="button-facebook"><img src="./images/icon-facebook.svg" alt="icon-face"></button>
+          <button class="social-networks" id="button-twitter"><img src="./images/icon-twitter.svg" alt="icon-twitter"></button>
+          <button class="social-networks" id="button-pinterest"><img src="./images/icon-pinterest.svg" alt="icon-pinterest"></button>
+        </div>
+        
+        <span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" id="triangle" viewBox="0 0 12 16"><path fill="currentColor" d="M0 5l6 6 6-6H0z"/></svg></span>
+
+    </section>
+</div>
+<script src="./js/js.js" defer></script>
+  
+  
+</body>
+</html>
